@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: rgb(19, 20, 20);
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(62, 74, 74);
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  nav ul li {
+    list-style: none;
+    margin: 0 23px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: antiquewhite;
+  }
+  nav ul li a:hover {
+    color: aqua;
+  }
+  .left {
+    font-size: 1.5rem;
+  }
+  .firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 120px 0;
+  }
+  .firstsection > div {
+    width: 30%;
+  }
+  .leftsection {
+    margin: 50px 0;
+    font-size: 3rem;
+  }
+  .leftsection .btn {
+    padding: 12px;
+    background: #7c708f;
+    color: #fae606;
+    border: 2px solid #fffde7;
+    border-radius: 6px;
+    font-size: 13px;
+    cursor: pointer;
+
+  }
+  .leftsection .btn a{
+    text-decoration: none;
+    color: #fae606;
+  }
+  .rightsection img {
+    width: 80%;
+    margin: 50px 0;
+  }
+  .purple {
+    color: blueviolet;
+  }
+  #element {
+    color: lawngreen;
+  }
+  main hr {
+    border: 0;
+    background-color: blueviolet;
+    height: 10px;
+    margin: 40px 84px;
+  }
+  .secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+  }
+  .secondsection h1 {
+    font-size: 1.8rem;
+    font-family: "EB Garamond", serif;
+  }
+  .text-grey {
+    color: rgb(214, 149, 149);
+  }
+  .secondsection .box {
+    background-color: aliceblue;
+    width: 73vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+  }
+  .secondsection .vertical {
+    height: 90px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+  }
+  .image-top {
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+  }
+  .vertical-title {
+    font-family: "Roboto Slab", serif;
+    position: relative;
+    top: 75px;
+    width: 150px;
+    font-size: 14px;
+  }
+  .vertical-desc {
+    position: relative;
+    top: 86px;
+    color: grey;
+    width: 150px;
+    font-size: 9px;
+  }
+  .footer {
+    background-color: #2d172d;
+  }
+  .footer {
+    display: flex;
+    padding: 23px 123px;
+    justify-content: space-evenly;
+  }
+  .footer li {
+    margin: 2px 3px;
+    padding: 2px 7px;
+    list-style: none;
+  }
+  .footer > div {
+    width: 223px;
+  }
+  footer .footer-right {
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+  }
